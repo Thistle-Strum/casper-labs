@@ -11,7 +11,7 @@ function SelectTimeZone({handleTimeZone, timeZone}) {
             
             }).then((timeZones) => {
                 const timeZonesArray = timeZones.data
-                console.log(timeZonesArray.unshift('Please Select an Time Zone'))
+                timeZonesArray.unshift('Please Select a Timezone')
                 setTimeZones(timeZonesArray);
         }) 
     }, []);

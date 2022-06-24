@@ -20,7 +20,7 @@ function App() {
             const isoString = timeData.data.datetime
             let result = isoString.match(/\d\d:\d\d/);
     
-            setTime(`It is currently ${result} in the ${timeData.data.timezone} time zone.`)
+            setTime(`It is currently ${result} in the ${timeData.data.timezone} timezone.`)
           }); 
 
         }, 1000);

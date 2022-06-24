@@ -22,7 +22,7 @@ function SelectTimeZone({handleTimeZone, timeZone}) {
 
     return (
         <div className="selectionContainer">
-            <label>Please Select a Time Zone: </label>
+           
             <select
                 className="timeZoneSelection"
                 id="timeZone"
